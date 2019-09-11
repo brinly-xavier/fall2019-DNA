@@ -1,0 +1,56 @@
+if (myfile.is_open())
+  {
+    while (! myfile.eof() )
+    {
+      getline (myfile,line);
+      cout << line << endl;
+    }
+    myfile.close();
+  }
+
+  else cout << "Unable to open file";
+
+//reads all the file into one string
+std::ifstream ifs(filename);
+std::string content( (std::istreambuf_iterator<char>(ifs) ),
+                     (std::istreambuf_iterator<char>()    ) );
+string = ifs.length();???????
+
+//this calculates the sum
+//cout<<"File contains a sum of : ";
+for (int i = 0; i < str)
+std::string str;
+
+// Read the next line from File untill it reaches the end.
+
+-There will be 1 string per line of the file. No guarantees on
+capitalization.
+-The program will then compute the sum, mean, variance, and standard deviation of the length of
+the DNA strings in the list. It will also compute the relative probability of each nucleotide
+(A,C,T, or G), as well as the probability of each nucleotide bigram (AA, AC, AT, AG, CA, CC,
+CT, CG, etc) across the entire collection.
+-After printing the summary statistics to yourname.out, you will generate 1000 DNA strings
+whose lengths follow a Gaussian distribution with the same mean and variance as calculated
+above. The relative frequency of nucleotides will also follow the statistics calculated above.
+Append the 1000 strings to the end of yourname.out.
+-If so, the program will prompt for the name of the next file, process it, and append the results
+to the output file.
+void print(const std::string &s)
+{
+	for (std::string::size_type i = 0; i < file.size(); i++) {
+		sum++;
+	}
+}
+
+outfile << "The mean of DNA is "<< + mean;
+outfile << "The variance of DNA is "<< + variance;
+outfile << "The standard deviation of DNA is "<< + stdev;
+outfile << "The probability of bigram is ";
+outfile << "AA: "<< + aA;
+outfile << "AC: "<< + aC;
+outfile << "AA: "<< + aT;
+outfile << "AG: "<< + aG;
+outfile << "CA: "<< + cA;
+outfile << "CC: "<< + cC;
+outfile << "CT: "<< + cT;
+outfile << "CG: "<< + cG;
