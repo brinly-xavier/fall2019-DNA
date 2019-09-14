@@ -157,6 +157,7 @@ int main(int argc, char *argv[]){
          num+=num_var;
       }
       //the rest does basic math and also prints the result to the new file
+      outfile <<"If file is empty BEWARE of the results";
       outfile << "\nThe sum of DNA is "<< sum / 2<<"\n";
       variance = num / denom;
       double stdev = sqrt(variance);
