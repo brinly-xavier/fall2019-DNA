@@ -1,3 +1,10 @@
+/*
+Brinly Xavier
+2316142
+xavier@chapman.edu
+CPSC 350 -01
+DNA Assignment: 01
+*/
 #include <iostream>
 #include <fstream>
 #include <string>
