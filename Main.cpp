@@ -184,7 +184,7 @@ int main(int argc, char *argv[]){
       outfile << "The Probability of the BiGram GG is: "<<gg / sum* 100<<"%"<<"\n";
 
       //this for loop creates a new distribution for every line
-      for (int i = 0; i < 15; ++i){
+      for (int i = 0; i < 1000; ++i){
         float a_rand = (float) rand()/ (float)RAND_MAX;
         float b_rand = (float) rand()/(float)RAND_MAX;
         double c_form = sqrt(-2*log(a_rand)) * cos( 2 * M_PI * b_rand);
